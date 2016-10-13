@@ -35,11 +35,16 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Child.cs" />
+    <Compile Include="ChildXmlFileReader.cs" />
+    <Compile Include="GetSympathyService.cs" />
+    <Compile Include="GetUnhappyService.cs" />
     <Compile Include="IChildFileReader.cs" />
     <Compile Include="IService.cs" />
     <Compile Include="ISympathyFileReader.cs" />
+    <Compile Include="GetNoSympathyService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sympathy.cs" />
+    <Compile Include="SympathyXmlFileReader.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
