@@ -8,6 +8,9 @@ using System.Xml.Serialization;
 
 namespace Kontur.TestTask
 {
+    /// <summary>
+    /// Читает список детей из файла в формате xml
+    /// </summary>
     public class ChildXmlFileReader : IChildFileReader
     {
         private readonly XmlSerializer xmlSerializer = new  XmlSerializer(typeof(Child[]));

@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Kontur.TestTask
 {
+    /// <summary>
+    /// Находит список любимчиков, то есть всех детей, которые симпатичны максимальному количеству других детей
+    /// </summary>
     public class GetSympathyService: IService
     {
         public IEnumerable<Child> Execute(IReadOnlyCollection<Child> childCollection, IReadOnlyCollection<Sympathy> sympathyCollection)

@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Kontur.TestTask
 {
+    /// <summary>
+    /// Гаходит список всех не любимчиков, то есть детей которые никому не симпатичны
+    /// </summary>
     public class GetNoSympathyService : IService
     {
         public IEnumerable<Child> Execute(IReadOnlyCollection<Child> childCollection, IReadOnlyCollection<Sympathy> sympathyCollection)

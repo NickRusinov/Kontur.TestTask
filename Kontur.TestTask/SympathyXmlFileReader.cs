@@ -8,6 +8,9 @@ using System.Xml.Serialization;
 
 namespace Kontur.TestTask
 {
+    /// <summary>
+    /// Читает список симпатий из файла в формате xml
+    /// </summary>
     public class SympathyXmlFileReader : ISympathyFileReader
     {
         private readonly XmlSerializer xmlSerializer = new XmlSerializer(typeof(Sympathy[]));

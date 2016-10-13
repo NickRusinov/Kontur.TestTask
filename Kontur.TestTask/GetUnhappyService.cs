@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace Kontur.TestTask
 {
+    /// <summary>
+    /// Находит список всех несчастных детей, то есть тех, которые не симпатичны ни одному ребенку из тех, кто симпатичен им самим. 
+    /// За исключением тех детей, которым никто не симпатичен
+    /// </summary>
     public class GetUnhappyService : IService
     {
         public IEnumerable<Child> Execute(IReadOnlyCollection<Child> childCollection, IReadOnlyCollection<Sympathy> sympathyCollection)
