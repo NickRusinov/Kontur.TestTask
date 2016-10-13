@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfChild>
+  <Child>
+    <Name>Вася</Name>
+  </Child>
+  <Child>
+    <Name>Петя</Name>
+  </Child>
+  <Child>
+    <Name>Саша</Name>
+  </Child>
+  <Child>
+    <Name>Маша</Name>
+  </Child>
+  <Child>
+    <Name>Катя</Name>
+  </Child>
+</ArrayOfChild>

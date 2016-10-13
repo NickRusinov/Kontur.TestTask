@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfSympathy>
+  <Sympathy>
+    <Subject>Вася</Subject>
+    <Object>Катя</Object>
+  </Sympathy>
+  <Sympathy>
+    <Subject>Маша</Subject>
+    <Object>Петя</Object>
+  </Sympathy>
+  <Sympathy>
+    <Subject>Саша</Subject>
+    <Object>Вася</Object>
+  </Sympathy>
+  <Sympathy>
+    <Subject>Катя</Subject>
+    <Object>Вася</Object>
+  </Sympathy>
+  <Sympathy>
+    <Subject>Саша</Subject>
+    <Object>Маша</Object>
+  </Sympathy>
+</ArrayOfSympathy>
